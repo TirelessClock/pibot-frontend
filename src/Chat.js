@@ -22,7 +22,7 @@ const Chat = () => {
 	const getBotResponse = async (userMessage) => {
 		try {
 			console.log(userMessage);
-			const response = await fetch('http://localhost:5000/interaction', {
+			const response = await fetch('https://pibot-backend.onrender.com/interaction', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
