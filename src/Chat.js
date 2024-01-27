@@ -52,7 +52,7 @@ const Chat = () => {
     <div>
       <div style={{ height: '75vh', width: '100vh', overflowY: 'scroll', border: '1px solid #000', marginBottom: '10px', padding: '10px', display: 'flex', flexDirection: 'column', backgroundColor: 'white' }}>
         {messages.map((message, index) => (
-          <div key={index} style={{ textAlign: 'left', maxWidth: '70%', margin: '5px', borderRadius: '10px', background: message.sender === 'user' ? '#4CAF50' : '#FF8000', color: 'white', padding: '10px' }}>
+          <div key={index} style={{ textAlign: 'left', maxWidth: '70%', margin: '5px', borderRadius: '10px', background: message.sender === 'user' ? '#FF8000' : '#4CAF50', color: 'white', padding: '10px' }}>
             {message.text}
           </div>
         ))}
