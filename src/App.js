@@ -22,6 +22,7 @@ function App() {
                 
                 <h2>Instructions for use: </h2>
                 <div style={{marginLeft: '20px'}}>
+                  <li>Bot may be slow to respond on the first try, but will give quick responses after one message.</li>
                   <li>All responses are derived from PM Modi's past speeches. The bot wouldn't be able to answer outside that.</li>
                   <li>At present, the bot is only trained on data from 2014-2022, and can therefore only be questioned from that period.</li>
                   <li>Try to include as many <b>keywords</b> in your query as possible.</li>
